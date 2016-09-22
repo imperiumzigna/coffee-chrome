@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Css/index.css">
+		<link rel="stylesheet" href="libs/materialize/dist/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+<div class="row">
+	<ul id="tabBar">
+		<li class="tab active">Google</li>
+	</ul>
+</div>
+	<div class="container">
+	<div id="urlBar" class="row">
+		<form>
+			<input id="inputUrl" type="text">
+		</form>
+	</div>
+
+
+
+
+	</div>
+	<div id="views">
+		<webview src="https:\\www.google.com" class="view active" autosize="on"></webview>
+	</div>
+
+	<!-- Insert this line above script imports  -->
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+	<!-- normal script imports etc  -->
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+
+	<!-- Insert this line after script imports -->
+	<script>if (window.module) module = window.module;</script>
+
+
+
+	<script src="Js/main.js"></script>
+	<!-- Libs -->
+	<script src="libs/materialize/dist/js/materialize.min.js"></script>
+	</body>
+</html>

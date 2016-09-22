@@ -1,0 +1,44 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#views{
+	height: 100%;
+	width: 100%;
+}
+
+ul li{
+	list-style: none outside none;!important;
+}
+
+.tab{
+	float: left;
+	width: 70px;
+	height: 40px;
+	background-color: #F3F9EC;
+}
+
+
+.view{
+	margin-top: 10px;!important;
+	height: 100%;!important;
+	width: 100%;!important;
+}
+
+#urlBar{
+	margin-top: 3px;
+	margin-bottom: 0px;
+
+}
+
+#inputUrl{
+	width: 90%;
+
+}
+
+.container{
+	margin: 0px;
+}
